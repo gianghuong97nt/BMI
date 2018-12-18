@@ -114,10 +114,10 @@ if(isset($_POST)){
     <div class="row">
         <div class="col-md-6">
             <form name="cal_bmi" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-                <div class="form-group">
-                    <label>Ảnh:</label>
-                    <img src="huong.jpg" class="form-control" style="width: 550px; height: 380px">
-                </div>
+<!--                <div class="form-group">-->
+<!--                    <label>Ảnh:</label>-->
+<!--                    <img src="huong.jpg" class="form-control" style="width: 550px; height: 380px">-->
+<!--                </div>-->
                 <div class="form-group">
                     <label>Chiều cao (M):</label>
                     <?php $val_height = isset($_POST['height']) ? $_POST['height']: ''; ?>
